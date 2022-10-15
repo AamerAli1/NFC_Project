@@ -1,18 +1,42 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Amer Alkazemi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mainpage.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   </head>
-  <body>    
-    <h1>THIS IS AN EXTREME ROUGH TEST MADE IN 5 Minutes</h1>
-    <h2> <a href="https://www.instagram.com/aamer_alkazemi/" target=”_blank”>Instagram</a></h2>
-    <h3><a href="https://www.linkedin.com/in/aamer-a-a0a87512b/" target=”_blank”>Linkedin</a></h3>
-    <h3><a href="https://github.com/aameralkazemi" target=”_blank”>GitHub</a></h3>
-   
+  <body>
     
+    <div class = "about-wrapper">
+      <div class = "about-left">
+        <div class = "about-left-content">
+          <div>
+            <div class = "shadow">
+              <div class = "about-img">
+                <img src="{{url_for('static', filename='images/amer_alkazemi.jpg')}}" alt = "Profile Photo" />
+              </div>
+            </div>
+
+            <h2>Amer Alkazemi</h2>
+            <h3>Software Engineer</h3>
+          </div>
+
+          <ul class = "icons">
+            <li><a href="https://www.instagram.com/aamer_alkazemi/" target=”_blank”><i class = "fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/aamer-a-a0a87512b/" target=”_blank”><i class = "fab fa-linkedin"></i></a></li>
+            <li><a href="https://wa.me/966535288851" target=”_blank”><i class = "fab fa-whatsapp"></i></a></li>
+            <li><a href="https://twitter.com/aamer_alkazemi" target=”_blank”><i class = "fab fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/aamer.murhaf" target=”_blank”><i class = "fab fa-facebook-f"></i></a></li>
+            
+          </ul>
+        </div>
+        
+      </div>
+
+    </div>  
   </body>
 </html>
